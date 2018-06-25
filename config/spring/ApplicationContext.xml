@@ -43,7 +43,6 @@
 <!-- 		<property name="mapperInterface" value="com.bigbigrain.mapper.UserMapper"></property> -->
 <!-- 		<property name="sqlSessionFactory" ref="sqlSessionFactory"></property> -->
 <!-- 	</bean> -->
-	
 	<!-- 使用包扫描的方式批量引入Mapper 扫描后引用的时候可以使用类名,首字母小写.-->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- 指定要扫描的包的全路径名称,如果有多个包用英文状态下的逗号分隔 -->
